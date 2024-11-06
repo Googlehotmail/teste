@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -46,27 +47,38 @@
 		.device a:hover {
 			text-decoration: underline;
 		}
+		
+		.device img {
+			width: 100%;
+			height: 150px;
+			object-fit: cover;
+			border-radius: 8px 8px 0 0;
+		}
 	</style>
 </head>
 <body>
 	<div class="container">
 		<h1>Tamanhos de Aparelhos</h1>
 		<div class="device">
+			<img src="(link unavailable)" alt="Smartphone">
 			<h2>Smartphone</h2>
 			<p>Tamanho: 5.0" a 6.5"</p>
 			<a href="#">Saiba mais</a>
 		</div>
 		<div class="device">
+			<img src="(link unavailable)" alt="Tablet">
 			<h2>Tablet</h2>
 			<p>Tamanho: 7" a 12"</p>
 			<a href="#">Saiba mais</a>
 		</div>
 		<div class="device">
+			<img src="(link unavailable)" alt="Notebook">
 			<h2>Notebook</h2>
 			<p>Tamanho: 11" a 17"</p>
 			<a href="#">Saiba mais</a>
 		</div>
 		<div class="device">
+			<img src="(link unavailable)" alt="Desktop">
 			<h2>Desktop</h2>
 			<p>Tamanho: 20" a 34"</p>
 			<a href="#">Saiba mais</a>
